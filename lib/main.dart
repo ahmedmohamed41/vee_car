@@ -14,7 +14,7 @@ class VeeCar extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: RoutesManager.router,
-      initialRoute: AppRoutes.mainLayout,
+      initialRoute: AppRoutes.splash,
     );
   }
 }
