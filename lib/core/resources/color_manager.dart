@@ -1,0 +1,3 @@
+class ColorManager {
+  ColorManager._();
+}

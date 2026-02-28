@@ -1,0 +1,3 @@
+class ConstantManager {
+  ConstantManager._();
+}
