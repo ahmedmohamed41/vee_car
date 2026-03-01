@@ -14,14 +14,65 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
-  /// File path: assets/images/log_vee.png
-  AssetGenImage get logVee => const AssetGenImage('assets/images/log_vee.png');
+  /// Directory path: assets/images/png
+  $AssetsImagesPngGen get png => const $AssetsImagesPngGen();
 
-  /// File path: assets/images/veeCar.png
-  AssetGenImage get veeCar => const AssetGenImage('assets/images/veeCar.png');
+  /// Directory path: assets/images/svg
+  $AssetsImagesSvgGen get svg => const $AssetsImagesSvgGen();
+}
+
+class $AssetsImagesPngGen {
+  const $AssetsImagesPngGen();
+
+  /// File path: assets/images/png/alahly.png
+  AssetGenImage get alahly =>
+      const AssetGenImage('assets/images/png/alahly.png');
+
+  /// File path: assets/images/png/character1.png
+  AssetGenImage get character1 =>
+      const AssetGenImage('assets/images/png/character1.png');
+
+  /// File path: assets/images/png/character4.png
+  AssetGenImage get character4 =>
+      const AssetGenImage('assets/images/png/character4.png');
+
+  /// File path: assets/images/png/login_logo.png
+  AssetGenImage get loginLogo =>
+      const AssetGenImage('assets/images/png/login_logo.png');
+
+  /// File path: assets/images/png/misr.png
+  AssetGenImage get misr => const AssetGenImage('assets/images/png/misr.png');
+
+  /// File path: assets/images/png/qnb.png
+  AssetGenImage get qnb => const AssetGenImage('assets/images/png/qnb.png');
+
+  /// File path: assets/images/png/veeCar.png
+  AssetGenImage get veeCar =>
+      const AssetGenImage('assets/images/png/veeCar.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [logVee, veeCar];
+  List<AssetGenImage> get values => [
+    alahly,
+    character1,
+    character4,
+    loginLogo,
+    misr,
+    qnb,
+    veeCar,
+  ];
+}
+
+class $AssetsImagesSvgGen {
+  const $AssetsImagesSvgGen();
+
+  /// File path: assets/images/svg/facebook.svg
+  String get facebook => 'assets/images/svg/facebook.svg';
+
+  /// File path: assets/images/svg/google.svg
+  String get google => 'assets/images/svg/google.svg';
+
+  /// List of all assets
+  List<String> get values => [facebook, google];
 }
 
 class Assets {
