@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen>
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Assets.images.veeCar.image(
+                Assets.images.png.veeCar.image(
                   fit: BoxFit.contain,
                 ),
               ],
