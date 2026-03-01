@@ -72,7 +72,6 @@ class OrderConfirmationScreen extends StatelessWidget {
                     fontWeight: FontWeight.w900,
                     size: 20.sp,
                   ),
-
                   const CustomRowCarDetail(
                     title: 'Car Model',
                     subTitle: 'Lux EV',
@@ -93,9 +92,10 @@ class OrderConfirmationScreen extends StatelessWidget {
             CustomElevatedButton(
               title: 'Back to Home',
               onPressed: () {
-                Navigator.pushReplacementNamed(
+                Navigator.pushNamedAndRemoveUntil(
                   context,
                   AppRoutes.home,
+                  (route) => false,
                 );
               },
             ),

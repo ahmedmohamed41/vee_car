@@ -5,7 +5,6 @@ import 'package:vee_car/core/widgets/custom_elevated_button.dart';
 import 'package:vee_car/feature/car_flow/widgets/custom_header_check_out.dart';
 import 'package:vee_car/feature/car_flow/widgets/custom_method_option.dart';
 
-
 class PurchaseMethodScreen extends StatefulWidget {
   const PurchaseMethodScreen({super.key});
 

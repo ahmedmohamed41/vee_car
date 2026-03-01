@@ -100,6 +100,13 @@ class _LoginScreenState extends State<LoginScreen> {
                           context,
                           AppRoutes.home,
                         );
+                         ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              duration: Duration(seconds: 3),
+                              backgroundColor: ColorManager.baseColor1,
+                              content: Text('Login Successfully'),
+                            ),
+                          );
                       }
                     },
                   ),
@@ -141,6 +148,13 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.pushReplacementNamed(
                             context,
                             AppRoutes.home,
+                          );
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              duration: Duration(seconds: 3),
+                              backgroundColor: ColorManager.baseColor1,
+                              content: Text('Login Successfully With Google'),
+                            ),
                           );
                         },
                       ),

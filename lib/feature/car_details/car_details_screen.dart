@@ -13,16 +13,9 @@ class CarDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: ColorManager.white,
       appBar: AppBar(
         elevation: 0,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back,
-            color: ColorManager.white,
-          ),
-          onPressed: () => Navigator.pop(context),
-        ),
-
         title: const Text(
           'Car Details',
         ),

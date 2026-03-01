@@ -9,7 +9,7 @@ import 'package:vee_car/feature/car_flow/screens/purchase_method_screen.dart';
 import 'package:vee_car/feature/car_flow/screens/select_bank_screen.dart';
 import 'package:vee_car/feature/home/home_screen.dart';
 import 'package:vee_car/feature/splash/splash_screen.dart';
-import 'package:vee_car/feature/car_details/view_details_screen.dart';
+import 'package:vee_car/feature/car_details/car_details_screen.dart';
 
 abstract class RoutesManager {
   RoutesManager._();
